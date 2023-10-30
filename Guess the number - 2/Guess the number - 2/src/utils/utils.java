@@ -1,3 +1,5 @@
+package utils;
+
 public class utils {
     public static int generateRandomNumberWithScope() {
         int min = 0;
