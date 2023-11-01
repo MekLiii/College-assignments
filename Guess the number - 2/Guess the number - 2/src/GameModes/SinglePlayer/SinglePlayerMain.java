@@ -1,10 +1,12 @@
 package GameModes.SinglePlayer;
 
+import logSystem.logSystem;
+
 import java.util.Scanner;
 
 public class SinglePlayerMain {
     Scanner scanner = new Scanner(System.in);
-    public SinglePlayerMain(){
+    public SinglePlayerMain(logSystem log){
 
 
         System.out.println("Welcome");
@@ -19,11 +21,13 @@ public class SinglePlayerMain {
 
             switch (choice) {
                 case 1:
-                    GuessNumber guessNumber = new GuessNumber();
+                    GuessNumber guessNumber = new GuessNumber(log);
+                    log.addLineToFile("mode: GuessNumber");
                     guessNumber.StartGame();
                     break;
                 case 2:
-                    PassNumber passNumber = new PassNumber();
+                    PassNumber passNumber = new PassNumber(log);
+                    log.addLineToFile("mode: PassNumber");
                     passNumber.StartGame();
 
                     break;
@@ -35,4 +39,6 @@ public class SinglePlayerMain {
             }
         }
     }
+
+
 }

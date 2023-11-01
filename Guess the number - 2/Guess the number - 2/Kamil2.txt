@@ -1,0 +1,4 @@
+mode: PassNumber
+Passed number: 36
+Computer guessed the number 36 in 7 attempts.
+mode: GuessNumber

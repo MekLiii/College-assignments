@@ -1,10 +1,8 @@
 package GameModes.SinglePlayer;
 
-import Player.Player;
+import logSystem.logSystem;
 import utils.utils;
-import fileSystem.fileSysyem;
 
-import java.util.Objects;
 import java.util.Scanner;
 
 public class GuessNumber {
@@ -13,12 +11,9 @@ public class GuessNumber {
     int trials = 0;
     Scanner scanner = new Scanner(System.in);
 
+    public  GuessNumber(logSystem log){}
    public  void StartGame() {
-        System.out.print("Enter a nickname: ");
-        Player player = new Player(scanner.nextLine());
-        if (!Objects.equals(player.previousAttempts, "")) {
-            System.out.println("Your previous attempts: " + player.previousAttempts);
-        }
+
 
 
         int generatedNumber = utils.generateRandomNumberWithScope();
@@ -29,7 +24,6 @@ public class GuessNumber {
                 guessedNumber = Integer.parseInt(scanner.nextLine());
                 if (guessedNumber == generatedNumber) {
                     System.out.println("Correct number: " + generatedNumber);
-                    fileSysyem.saveResultsInFile(player.playerName, trials);
                     numberIsGuessed = true;
                 } else {
                     utils.checkIfNumberIsHigherOrLower(guessedNumber, generatedNumber);

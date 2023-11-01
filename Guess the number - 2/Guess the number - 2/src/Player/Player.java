@@ -8,8 +8,6 @@ import java.nio.file.Paths;
 import java.util.List;
 
 public class Player {
-
-
     public String playerName = "";
     public String previousAttempts = "";
 
