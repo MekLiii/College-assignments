@@ -10,8 +10,10 @@ public class GuessNumber {
     int guessedNumber = 0;
     int trials = 0;
     Scanner scanner = new Scanner(System.in);
-
-    public  GuessNumber(logSystem log){}
+    logSystem log;
+    public  GuessNumber(logSystem log){
+        this.log = log;
+    }
    public  void StartGame() {
 
 
@@ -24,10 +26,12 @@ public class GuessNumber {
                 guessedNumber = Integer.parseInt(scanner.nextLine());
                 if (guessedNumber == generatedNumber) {
                     System.out.println("Correct number: " + generatedNumber);
+                    log.addLineToFile("Correct number: " + generatedNumber);
                     numberIsGuessed = true;
                 } else {
                     utils.checkIfNumberIsHigherOrLower(guessedNumber, generatedNumber);
                     System.out.println("Wrong number");
+                    log.addLineToFile("Wrong number");
                     trials++;
                 }
             } catch (NumberFormatException e) {

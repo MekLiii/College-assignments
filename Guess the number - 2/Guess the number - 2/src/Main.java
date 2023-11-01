@@ -1,5 +1,5 @@
 import Difficulty.Difficulty;
-import GameModes.MultiPlayerMain;
+import GameModes.MultiPlayer.MultiPlayerMain;
 import GameModes.SinglePlayer.SinglePlayerMain;
 import Player.Player;
 import logSystem.logSystem;

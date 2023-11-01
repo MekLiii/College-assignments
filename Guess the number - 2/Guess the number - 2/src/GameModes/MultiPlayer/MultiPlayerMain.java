@@ -1,4 +1,4 @@
-package GameModes;
+package GameModes.MultiPlayer;
 
 import Difficulty.Difficulty;
 
