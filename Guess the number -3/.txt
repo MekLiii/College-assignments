@@ -1,0 +1,5 @@
+player: Kamil hasGuessed: false
+player: Kamil trials: 0
+player: Kamil hasGuessed: false
+player: Kamil trials: 0
+Difficulty min: 1 max: 100

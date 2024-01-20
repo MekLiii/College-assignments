@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f01cfc6c-a1bd-46b3-b261-2f28e6b89db2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Java/Guess the number - 1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Guess the number - 1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Guess the number - 1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Guess the number - 1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Guess the number - 1/Kamil.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Guess the number - 1/Zadanie2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Guess the number - 1/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +12,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2XUskN81FSIAQdpvgFT8PNdRDMM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,7 +26,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/projekty/College-assignments/Guess the number - 2",
+    "last_opened_file_path": "C:/projekty/Studia",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -45,6 +39,8 @@
       <option name="presentableId" value="Default" />
       <updated>1698695135071</updated>
       <workItem from="1698695136102" duration="56000" />
+      <workItem from="1705739706773" duration="59000" />
+      <workItem from="1705739776219" duration="37000" />
     </task>
     <servers />
   </component>
